@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  background: darkgray;
+  height: 300px;
+  color: white;
+  align-items: end;
+}
+
+.r1 {
+  background: red;
+}
+
+.r2 {
+  align-self: flex-start;
+  /*   align-self: center; -> alinha 1 item ao centro */
+  background: blue;
+}
+
+.r3 {
+  background: green;
+}
+
+.rect {
+  width: 150px;
+  height: 100px;
+}
