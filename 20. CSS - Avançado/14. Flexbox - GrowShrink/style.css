@@ -6,18 +6,18 @@
 }
 
 .r1 {
-  flex-shrink: 0;
+  flex-shrink: 1;
   background: red;
 }
 
 .r2 {
-  flex-shrink: 0;
+  flex-shrink: 2;
   background: blue;
 }
 
 .r3 {
   background: green;
-  flex-shrink: 0;
+  flex-shrink: 3;
   /* flex-shrink: 0 não deixa diminuir */
   /* flex-grow: 0 não deixa aumentar*/
 }
